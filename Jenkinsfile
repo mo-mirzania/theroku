@@ -2,15 +2,9 @@ pipeline {
     agent any
     
     stages {
-
-        stage("Build") {
-            steps {
-                sh 'go build main.go'
-            }
-        }
         stage("Deploy") {
             steps {
-                sh 'sh script.sh'
+                sh 'nohup go run main.go&'
             }
         }
     }
