@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/mo-mirzania/theroku/src",
+	"ImportPath": "github.com/mo-mirzania/theroku/",
 	"GoVersion": "go1.15",
 	"GodepVersion": "v80",
 	"Deps": []
