@@ -1,3 +1,3 @@
 #!/bin/bash
 
-nohup /usr/local/go/bin/go ./main &
+nohup /usr/local/bin/main &
