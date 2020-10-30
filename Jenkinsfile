@@ -10,7 +10,7 @@ pipeline {
         }
         stage("Deploy") {
             steps {
-                sh './main&'
+                sh 'script.sh'
             }
         }
     }
