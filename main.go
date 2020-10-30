@@ -18,7 +18,7 @@ func index(w http.ResponseWriter, r *http.Request) {
 func determineListenAddress() string {
 	port := os.Getenv("PORT")
 	if port == "" {
-		return ":8080"
+		return ":9090"
 	}
 	return ":" + port
 }
